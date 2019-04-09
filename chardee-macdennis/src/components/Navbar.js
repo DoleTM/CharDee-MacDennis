@@ -6,7 +6,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="/">Welcome</a>
+      <a href="/">"Chardee MacDennis: The Game of Games"</a>
     </nav>
   );
 }

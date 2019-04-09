@@ -1,6 +1,8 @@
 .navbar {
-    background: #6a1b9a;
+    background: black;
     height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
   }
   
   .navbar a {

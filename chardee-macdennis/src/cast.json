@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Charlie Kelly",
+      "gif": "https://media.giphy.com/media/zvhLegRrWl9Be/giphy.gif"
+    },
+    {
+      "id": 2,
+      "name": "Dennis Reynolds",
+      "gif": "https://media.giphy.com/media/7CaD8QiTqveXS/giphy.gif"
+    },
+    {
+      "id": 3,
+      "name": "Mac Mcdonald",
+      "gif": "https://media.giphy.com/media/3o7bu27mEFrvUVaE7K/giphy.gif"
+    },
+    {
+      "id": 4,
+      "name": "Dee Reynolds",
+      "gif": "https://media.giphy.com/media/l41lY0pUcnufO7pYc/giphy.gif"
+    },
+    {
+      "id": 5,
+      "name": "Frank Reynolds",
+      "gif": "https://media.giphy.com/media/3o7TKH8yWJ4X5iSDMQ/giphy.gif"
+    },
+    {
+      "id": 6,
+      "name": "The McPoyles",
+      "gif": "https://media.giphy.com/media/DjVCpTvzAKLaE/giphy.gif"
+    },
+    {
+      "id": 7,
+      "name": "The Waitress",
+      "gif": "https://media.giphy.com/media/RkJlBWqjw3xdQ0zjAr/giphy.gif"
+    },
+    {
+      "id": 8,
+      "name": "Rickety Cricket",
+      "gif": "https://media.giphy.com/media/l0Iy2WkvqrP8DrKyQ/giphy.gif"
+    },
+    {
+      "id": 9,
+      "name": "Charlie's Mom",
+      "gif": "https://media.giphy.com/media/t5YKqfIbDFR0BBq7De/giphy.gif"
+    },
+    {
+      "id": 10,
+      "name": "Mac's Mom",
+      "gif": "https://media.giphy.com/media/l0IygvcRncghThKak/giphy.gif"
+    },
+    {
+      "id": 11,
+      "name": "Jack Kelly",
+      "gif": "https://media.giphy.com/media/l0IyhnTNCstqKXB1C/giphy.gif"
+    },
+    {
+      "id": 12,
+      "name": "Maureen Ponderosa",
+      "gif": "https://media.giphy.com/media/fHohZKtIZlvWUd7hEb/giphy.gif"
+    }
+  ]
