@@ -1,6 +1,6 @@
 .header {
-    background: #b71775;
-    height: 200px;
+    height: 550px;
     background-image: url(./8x8_Chardee_MacDennis_board.jpg);
-    
+    background-size: cover;
+    font-display: white;
   }

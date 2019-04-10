@@ -8,11 +8,14 @@ import cast from "./cast.json"
 class App extends Component {
   // Setting this.state.pictures.json array
   state = {
-    cast
+    cast,
+    score: 0,
+    highscore: 0,
+
   };
 
   scramblePictures = id => {
-    const cast = this.state.cast.filter(char => char.id !== id);
+    const cast = this.state.cast.sort.map(char => char.id !== id);
     this.setState({ cast })
   }
 

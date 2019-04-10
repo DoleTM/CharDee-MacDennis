@@ -1,0 +1,9 @@
+img {
+    height: 170px;
+    width: 170px;
+    border: 5px solid;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: 50%;
+    margin: 8px 25px;
+}

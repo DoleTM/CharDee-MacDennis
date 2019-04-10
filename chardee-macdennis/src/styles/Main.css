@@ -1,16 +1,11 @@
 .container {
     background: green;
-    padding: 20px;
-  }
-  
-  .row {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  .col {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80%;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
   }
