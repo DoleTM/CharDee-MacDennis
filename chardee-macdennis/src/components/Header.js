@@ -6,7 +6,7 @@ import "../styles/Header.css";
 function Header(props) {
   return (
     <header className="header">
-    Score: {props.data} | Top Score: {props.data}
+    Score: {props.score} | Top Score: {props.highscore}
     </header>
   );
 }

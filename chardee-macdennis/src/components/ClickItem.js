@@ -2,9 +2,12 @@ import React from 'react';
 import "../styles/ClickItem.css"
 
 function ClickItem(props) {
-    return (
-        <div onClick={() => props.scramblePictures(props.id)} className="clickItem"><img alt={props.name} src={props.gif} /></div>
-    );
-}
+    return <div className="click-item"
+            role="img" 
+            aria-label="click item"
+            onClick={() => props.scrambleGifs(props.id)}
+            style={{ backgroundImage: `url(${props.gif})`}}
+        />
+};
 
 export default ClickItem;

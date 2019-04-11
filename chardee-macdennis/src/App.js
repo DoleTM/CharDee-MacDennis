@@ -8,29 +8,55 @@ import cast from "./cast.json"
 class App extends Component {
   // Setting this.state.pictures.json array
   state = {
-    cast,
+    cast: cast,
     score: 0,
     highscore: 0,
-
+    clicked: []
   };
 
-  scramblePictures = id => {
-    const cast = this.state.cast.sort.map(char => char.id !== id);
-    this.setState({ cast })
+  componentDidMount() {
+    this.scrambleGifs(this.state.scrambleGifs);
+  }
+
+  scrambleGifs = id => {
+    const unClicked = this.state.clicked.indexOf(id) > -1;
+    //const cast = this.state.cast.sort.map(char => char.id !== id);
+    // Setting an if else statement if the gif has been clicked or not increasing the users score
+    if(!unClicked) {
+      // when clicked push the clicked gif into a new array 
+      this.state.clicked.push(id);
+      if(this.state.score === this.state.highscore){
+        this.setState({
+          cast: this.state.cast.sort(
+            () => .5 - Math.random()
+          ),
+          score: this.state.score + 1,
+          highscore: this.state.highscore + 1
+        });
+      } else {
+        this.setState({
+          cast: this.state.cast.sort(
+            () => .5 - Math.random()
+          ),
+          score: 0,
+          clicked: []
+        })
+      }
+    }
   }
 
   render() {
     return (
       <div>
         <Navbar />
-        <Header />
+        <Header score={this.state.score} highscore={this.state.highscore}/>
         <Main >
-          {this.state.cast.map(char => (
+          {this.state.cast.map(cast => (
             <ClickItem
-              scramblePictures={this.scramblePictures}
-              id={char.id}
-              key={char.id}
-              gif={char.gif}
+              scrambleGifs={this.scrambleGifs}
+              id={cast.id}
+              key={cast.id}
+              gif={cast.gif}
             />
           ))}
         </Main>
