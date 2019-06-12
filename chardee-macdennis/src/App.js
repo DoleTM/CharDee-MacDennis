@@ -18,12 +18,12 @@ class App extends Component {
     this.scrambleGifs(this.state.scrambleGifs);
   }
 
+  // Scramble the gifs when they are clicked on
   scrambleGifs = id => {
     const unClicked = this.state.clicked.indexOf(id) > -1;
-    //const cast = this.state.cast.sort.map(char => char.id !== id);
     // Setting an if else statement if the gif has been clicked or not increasing the users score
     if(!unClicked) {
-      // when clicked push the clicked gif into a new array 
+      // Then when a gif is clicked, push it into the clicked array 
       this.state.clicked.push(id);
       if(this.state.score === this.state.highscore){
         this.setState({
